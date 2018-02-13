@@ -5,11 +5,11 @@ Navigate inside the directory which contains the files from the previous section
 ```bash
 npm init
 ```
-For the first threeprompts, just hit <kbd>Enter</kbd>, for the next prompt
+For the first three prompts, just hit <kbd>Enter</kbd>, for the next prompt
 ```bash
 entry point: (index.js)
 ```
-type in <kbd>server.js</kbd>. And then just hit <kbd>Enter</kbd> for the rest of the prompts.. And then just hit <kbd>Enter</kbd> for the rest of the prompts.
+type in <kbd>server.js</kbd>. And then just hit <kbd>Enter</kbd> for the rest of the prompts.
 
 This initializes our workspace as a Node.js package. This does two things: (1) It allows us to install packages through npm, and (2) it creates the package.json file, which handles our package's metadata and its dependencies. This package.json will look something like
 ```json
@@ -92,4 +92,4 @@ node server.js
 
 and once again navigate to `localhost:3000` in your browser. What do you see?
 
-[Part 3]()
+[Part 3](https://github.com/OKStateACM/CreateYourOwnWebAPI_Codelab/blob/master/Part%203.md)

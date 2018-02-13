@@ -14,7 +14,7 @@
 	* Each date should have the following fields:
 		* person1
 		* person2
-    * date
+		* date
 		* time
 		* location
 
@@ -24,11 +24,15 @@ As this codelab is mainly focused on creating the API, most of this stuff is alr
 ```bash
 npm install --save mongoose
 ```
+We also need to grab the Model objects from the `models/` directory and put them in `server.js`.
 
-And, modify `server.js` to look like:
+Modify `server.js` to look like:
 ```javascript
 const express = require('express');
 const mongoose = require('mongoose');
+
+User = require('./models/user');
+date = require('./models/date');
 
 let app = express();
 
@@ -43,6 +47,8 @@ app.listen(port);
 console.log("Listening on port " + port);
 ```
 
-All we did here was add the `mongoose' library, and use it to connect to a database called `dating_site` that we will just keep on our local machine.
+All we did here was add the `mongoose` library, grabbed the models, and used mongoose to connect to a database called `dating_site` that we will just keep on our local machine.
 
 Go ahead and run ```node server.js``` again to make sure you don't have any errors.
+
+[Part 4](https://github.com/OKStateACM/CreateYourOwnWebAPI_Codelab/blob/master/Part%204.md)
