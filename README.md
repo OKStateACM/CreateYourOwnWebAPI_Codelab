@@ -2,7 +2,7 @@
 
 Welcome to this codelab on creating your own web api! Before getting started, let's make sure you have some things installed.
 
-* [nodejs](nodejs.org/en/download)
+* [nodejs](https://nodejs.org/en/download)
 
 * [mongodb](https://docs.mongodb.com/manual/installation/)
 
