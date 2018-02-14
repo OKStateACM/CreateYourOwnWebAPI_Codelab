@@ -47,7 +47,7 @@ app.listen(port);
 console.log("Listening on port " + port);
 ```
 
-All we did here was add the `mongoose` library, grabbed the models, and used mongoose to connect to a database called `dating_site` that we will just keep on our local machine.
+All we did here was add the `mongoose` library, grabbed the models, and used mongoose to connect to a database called `dating_site` that we will just keep on our local machine. **NOTE**: mongoose will create the database for us if it doesn't already exist.
 
 Go ahead and run ```node server.js``` again to make sure you don't have any errors.
 
