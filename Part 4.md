@@ -71,7 +71,7 @@ When you first open up postman, it will ask you to login. You don't have to if y
 
 ![postman_demo](https://i.imgur.com/NwveT5u.png)
 
-Select the dropdown menu that says GET, and change it to POST.
+Select the dropdown menu that says GET, and change it to POST. In the URL field, put `localhost:3000/api/user`
 
 ![dropdown](https://i.imgur.com/CED7bw8.png)
 
