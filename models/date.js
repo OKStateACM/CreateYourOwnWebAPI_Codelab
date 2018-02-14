@@ -30,7 +30,7 @@ date.getDates = function(callback, limit) {
   date.find({}, callback).limit(limit);
 }
 
-date.getDates = function(id, callback) {
+date.getDate = function(id, callback) {
   date.find( { _id: id }, callback  );
 }
 
