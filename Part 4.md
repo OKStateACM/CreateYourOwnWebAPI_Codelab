@@ -175,7 +175,7 @@ app.delete('/api/user/:_id', (req, res, next) => {
 });
 
 app.get('/api/dates', (req, res, next) => {
-  date.getDsers((err, dates) => {
+  date.getDates((err, dates) => {
     if (err) {
       throw err;
     }

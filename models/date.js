@@ -23,7 +23,7 @@ var dateSchema = mongoose.Schema({
   }
 });
 
-var date = mongoose.model('date', userSchema);
+var date = mongoose.model('date', dateSchema);
 
 // Functions for interacting with user
 date.getDates = function(callback, limit) {
